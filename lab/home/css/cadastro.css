@@ -1,0 +1,48 @@
+.header-cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: aliceblue;
+    color: black;
+    font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+form {
+    font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;    ;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+form input, form textarea{
+    outline: unset;
+    padding: 20px;
+    min-width: 300px; /* obriga a largura minima */
+    border: 1px solid #a52a2a;
+    border-radius: 20px;
+}
+
+form input:focus, form textarea:focus {
+    background-color: wheat;
+}
+
+form input[type=submit] {
+    background-color: #a52a2a;
+    color: white;
+    cursor: pointer;
+}
+
+form label {
+    margin-left: 10px;
+}
